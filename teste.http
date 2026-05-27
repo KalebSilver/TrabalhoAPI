@@ -1,0 +1,19 @@
+POST http://localhost/trabalho/cliente.php
+Content-Type: application/json
+
+{
+    "nome": "Alan",
+    "sobrenome": "Pereira",
+    "email": "alan.pereira@example.com",
+    "telefone": "(11) 1234-2536"
+}
+
+###
+GET http://localhost/trabalho/cliente.php
+
+###
+
+GET http://localhost/trabalho/cliente.php?id=3
+
+###
+DELETE  http://localhost/trabalho/cliente.php?id=2 
